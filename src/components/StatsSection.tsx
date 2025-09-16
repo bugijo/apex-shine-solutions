@@ -16,7 +16,7 @@ const StatsSection = () => {
 
   const finalCounts = {
     companies: 50,
-    years: 8,
+    years: 5,
     employees: 25,
     satisfaction: 98,
   };

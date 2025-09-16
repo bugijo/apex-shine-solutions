@@ -27,7 +27,7 @@ const HeroSection = () => {
           <img
             src={logoApex}
             alt=""
-            className="w-96 h-96 object-contain opacity-5"
+            className="w-[600px] h-[600px] object-contain opacity-15"
           />
         </div>
         {/* Overlay */}
@@ -41,7 +41,7 @@ const HeroSection = () => {
         </h1>
         <p className="text-xl md:text-2xl mb-12 text-balance max-w-4xl mx-auto opacity-95 leading-relaxed">
           Serviços profissionais de limpeza e conservação que elevam o padrão do seu negócio. 
-          Atendemos indústrias, centros de distribuição e empresas em toda a região de Ribeirão Preto 
+          Atendemos indústrias, centros de distribuição e empresas em toda a região do Sul de Minas 
           com tecnologia de ponta e equipes especializadas.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

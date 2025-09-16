@@ -137,34 +137,34 @@ const ContactSection = () => {
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
-                  <p className="text-muted-foreground">(16) 99348-9462</p>
-                </div>
-              </div>
+                 <div>
+                   <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
+                   <p className="text-muted-foreground">(35) 99999-9999</p>
+                 </div>
+               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
-                  <p className="text-muted-foreground">contato@apexsolucoes.ind.br</p>
-                </div>
-              </div>
+               <div className="flex items-start space-x-4">
+                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                   <Mail className="w-6 h-6 text-white" />
+                 </div>
+                 <div>
+                   <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
+                   <p className="text-muted-foreground">contato@apexsolucoes.ind.br</p>
+                 </div>
+               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
-                  <p className="text-muted-foreground">
-                    Av. Presidente Vargas, 2121, Sala 1505<br />
-                    Ed. Corporate Financial Center<br />
-                    Ribeirão Preto - SP
-                  </p>
-                </div>
+               <div className="flex items-start space-x-4">
+                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                   <MapPin className="w-6 h-6 text-white" />
+                 </div>
+                 <div>
+                   <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
+                   <p className="text-muted-foreground">
+                     Av. Princesa do Sul, 1250, Sala 405<br />
+                     Jardim Andere<br />
+                     Varginha - MG, 37026-530
+                   </p>
+                 </div>
               </div>
             </div>
           </div>

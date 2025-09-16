@@ -1,4 +1,4 @@
-import equipmentImage from "@/assets/equipment-facility.jpg";
+import beforeAfterImage from "@/assets/before-after-cleaning.jpg";
 
 const AboutSection = () => {
   return (
@@ -9,8 +9,8 @@ const AboutSection = () => {
           <div className="relative animate-scale-in">
             <div className="relative overflow-hidden rounded-2xl shadow-strong">
               <img
-                src={equipmentImage}
-                alt="Equipamentos profissionais de limpeza da Apex"
+                src={beforeAfterImage}
+                alt="Antes e depois da limpeza profissional - transformação de ambientes"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-primary opacity-10"></div>
@@ -29,10 +29,10 @@ const AboutSection = () => {
             
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Fundada em Ribeirão Preto, a Apex Soluções em Facilities nasceu para atender à crescente 
-                demanda por serviços de limpeza profissionais e eficientes na região. Começamos com pequenos 
-                contratos e, com um foco incansável na qualidade e no uso de tecnologia, expandimos nossa 
-                capacidade para atender grandes plantas industriais e logísticas.
+                Com <strong>5 anos de experiência no mercado</strong>, a Apex Soluções em Facilities foi fundada em Varginha para atender à crescente 
+                demanda por serviços de limpeza profissionais e eficientes no Sul de Minas. Começamos com pequenos 
+                contratos e, com um foco incansável na qualidade e tecnologia, expandimos nossa 
+                capacidade para atender grandes plantas industriais.
               </p>
               
               <p>
@@ -45,7 +45,7 @@ const AboutSection = () => {
               <p>
                 Entendemos que um ambiente limpo e bem conservado é crucial para a produtividade, segurança 
                 e imagem de qualquer negócio. Nosso compromisso é ser mais que um fornecedor: somos um 
-                parceiro estratégico para o sucesso e a imagem da sua empresa.
+                parceiro estratégico para o sucesso e a imagem do seu negócio.
               </p>
             </div>
 

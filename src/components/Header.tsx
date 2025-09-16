@@ -42,25 +42,25 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("inicio")}
-              className="text-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-semibold text-lg"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection("servicos")}
-              className="text-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-semibold text-lg"
             >
               Serviços
             </button>
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-semibold text-lg"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("contato")}
-              className="text-foreground hover:text-primary transition-colors"
+              className="text-foreground hover:text-primary transition-colors font-semibold text-lg"
             >
               Contato
             </button>
