@@ -1,4 +1,4 @@
-import teamImage from "@/assets/team-professional.jpg";
+import equipmentImage from "@/assets/equipment-facility.jpg";
 
 const AboutSection = () => {
   return (
@@ -9,8 +9,8 @@ const AboutSection = () => {
           <div className="relative animate-scale-in">
             <div className="relative overflow-hidden rounded-2xl shadow-strong">
               <img
-                src={teamImage}
-                alt="Equipe profissional da Apex Soluções"
+                src={equipmentImage}
+                alt="Equipamentos profissionais de limpeza da Apex"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-primary opacity-10"></div>
@@ -33,6 +33,13 @@ const AboutSection = () => {
                 demanda por serviços de limpeza profissionais e eficientes na região. Começamos com pequenos 
                 contratos e, com um foco incansável na qualidade e no uso de tecnologia, expandimos nossa 
                 capacidade para atender grandes plantas industriais e logísticas.
+              </p>
+              
+              <p>
+                Hoje somos referência em <strong>limpeza predial profissional</strong>, com mais de 
+                <strong>50 empresas atendidas</strong> e uma frota de equipamentos modernos que garante 
+                resultados superiores. Nossa equipe especializada passa por treinamentos constantes em 
+                segurança, técnicas de limpeza e atendimento ao cliente.
               </p>
               
               <p>

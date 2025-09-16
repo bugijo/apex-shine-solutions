@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-warehouse.jpg";
+import heroImage from "@/assets/hero-clean-facility.jpg";
+import logoApex from "@/assets/logo-apex.png";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -18,30 +19,49 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Centro de distribuição moderno com pisos espelhados"
+          alt="Instalações modernas e limpas"
           className="w-full h-full object-cover"
         />
+        {/* Logo Background - Transparent */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src={logoApex}
+            alt=""
+            className="w-96 h-96 object-contain opacity-5"
+          />
+        </div>
         {/* Overlay */}
-        <div className="absolute inset-0 hero-overlay"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-secondary/85 via-secondary/75 to-primary/80"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto animate-fade-in">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight">
+      <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto animate-fade-in">
+        <h1 className="text-5xl md:text-7xl font-bold mb-8 text-balance leading-tight">
           Eficiência que Brilha: A Solução Definitiva em Facilities para sua Empresa
         </h1>
-        <p className="text-xl md:text-2xl mb-8 text-balance max-w-3xl mx-auto opacity-95">
+        <p className="text-xl md:text-2xl mb-12 text-balance max-w-4xl mx-auto opacity-95 leading-relaxed">
           Serviços profissionais de limpeza e conservação que elevam o padrão do seu negócio. 
-          Atendemos indústrias, centros de distribuição e empresas em toda a região de Ribeirão Preto.
+          Atendemos indústrias, centros de distribuição e empresas em toda a região de Ribeirão Preto 
+          com tecnologia de ponta e equipes especializadas.
         </p>
-        <Button 
-          size="lg"
-          variant="secondary"
-          onClick={() => scrollToSection("contato")}
-          className="text-lg px-8 py-6 shadow-strong hover:shadow-medium transition-all duration-300 transform hover:scale-105"
-        >
-          Fale com um Especialista
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Button 
+            size="lg"
+            variant="secondary"
+            onClick={() => scrollToSection("contato")}
+            className="text-lg px-10 py-7 shadow-strong hover:shadow-medium transition-all duration-300 transform hover:scale-105"
+          >
+            Fale com um Especialista
+          </Button>
+          <Button 
+            size="lg"
+            variant="outline"
+            onClick={() => scrollToSection("servicos")}
+            className="text-lg px-10 py-7 bg-white/10 text-white border-white/30 hover:bg-white/20 backdrop-blur-sm"
+          >
+            Nossos Serviços
+          </Button>
+        </div>
       </div>
     </section>
   );
