@@ -1,14 +1,18 @@
-// Placeholder for future image import
+import sociosImage from "@/assets/socios-apex.jpg";
 
 const AboutSection = () => {
   return (
     <section id="sobre" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-          {/* Placeholder for future sócios image */}
+          {/* Foto dos sócios */}
           <div className="relative animate-scale-in">
-            <div className="relative overflow-hidden rounded-2xl shadow-strong bg-accent flex items-center justify-center h-[500px]">
-              <p className="text-muted-foreground text-lg">Foto dos Sócios</p>
+            <div className="relative overflow-hidden rounded-2xl shadow-strong">
+              <img
+                src={sociosImage}
+                alt="Sócios da Apex Impermeabilização em ambiente de trabalho"
+                className="w-full h-[500px] object-cover"
+              />
             </div>
           </div>
 

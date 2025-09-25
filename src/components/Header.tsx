@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import logoApex from "@/assets/logo-apex.png";
+import logoApex from "@/assets/logo-apex-novo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

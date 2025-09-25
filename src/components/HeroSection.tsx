@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-clean-facility.jpg";
-import logoApex from "@/assets/logo-apex.png";
+import logoApex from "@/assets/logo-apex-novo.png";
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
