@@ -1,5 +1,6 @@
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
+import logoApex from "@/assets/logo-apex.png";
 
 const StatsSection = () => {
   const { ref, inView } = useInView({
@@ -15,9 +16,9 @@ const StatsSection = () => {
   });
 
   const finalCounts = {
-    companies: 50,
+    companies: 100,
     years: 5,
-    employees: 25,
+    employees: 15,
     satisfaction: 98,
   };
 
@@ -53,7 +54,7 @@ const StatsSection = () => {
     {
       number: counts.companies,
       suffix: "+",
-      label: "Empresas Atendidas",
+      label: "Obras Concluídas",
       description: "Confiança conquistada"
     },
     {
@@ -65,20 +66,28 @@ const StatsSection = () => {
     {
       number: counts.employees,
       suffix: "+",
-      label: "Colaboradores",
-      description: "Equipe especializada"
+      label: "Técnicos Especializados",
+      description: "Equipe qualificada"
     },
     {
       number: counts.satisfaction,
       suffix: "%",
       label: "Satisfação",
-      description: "Clientes recomendariam"
+      description: "Clientes recomendam"
     }
   ];
 
   return (
-    <section className="py-20 bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
+      {/* Logo Watermark */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <img
+          src={logoApex}
+          alt=""
+          className="w-[800px] h-[800px] object-contain opacity-5"
+        />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Números que Falam por Si

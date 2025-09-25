@@ -1,19 +1,14 @@
-import beforeAfterImage from "@/assets/before-after-cleaning.jpg";
+// Placeholder for future image import
 
 const AboutSection = () => {
   return (
     <section id="sobre" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-          {/* Image */}
+          {/* Placeholder for future sócios image */}
           <div className="relative animate-scale-in">
-            <div className="relative overflow-hidden rounded-2xl shadow-strong">
-              <img
-                src={beforeAfterImage}
-                alt="Antes e depois da limpeza profissional - transformação de ambientes"
-                className="w-full h-[500px] object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-primary opacity-10"></div>
+            <div className="relative overflow-hidden rounded-2xl shadow-strong bg-accent flex items-center justify-center h-[500px]">
+              <p className="text-muted-foreground text-lg">Foto dos Sócios</p>
             </div>
           </div>
 
@@ -29,30 +24,15 @@ const AboutSection = () => {
             
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                Com <strong>5 anos de experiência no mercado</strong>, a Apex Soluções em Facilities foi fundada em Varginha para atender à crescente 
-                demanda por serviços de limpeza profissionais e eficientes no Sul de Minas. Começamos com pequenos 
-                contratos e, com um foco incansável na qualidade e tecnologia, expandimos nossa 
-                capacidade para atender grandes plantas industriais.
+                Com <strong>5 anos de experiência</strong>, a Apex Impermeabilização nasceu para atender à crescente 
+                demanda por serviços técnicos e confiáveis em São Paulo. Nosso foco sempre foi a execução correta, 
+                desde o preparo da superfície até a aplicação final do sistema.
               </p>
               
               <p>
-                Hoje somos referência em <strong>limpeza predial profissional</strong>, com mais de 
-                <strong>50 empresas atendidas</strong> e uma frota de equipamentos modernos que garante 
-                resultados superiores. Nossa equipe especializada passa por treinamentos constantes em 
-                segurança, técnicas de limpeza e atendimento ao cliente.
-              </p>
-              
-              <p>
-                Entendemos que um ambiente limpo e bem conservado é crucial para a produtividade, segurança 
-                e imagem de qualquer negócio. Nosso compromisso é ser mais que um fornecedor: somos um 
-                parceiro estratégico para o sucesso e a imagem do seu negócio.
-              </p>
-            </div>
-
-            <div className="mt-8 p-6 bg-accent rounded-xl border-l-4 border-l-primary">
-              <p className="text-foreground font-medium italic">
-                "Nossa missão é transformar ambientes de trabalho através da excelência em limpeza e 
-                conservação, contribuindo para o crescimento e sucesso dos nossos parceiros comerciais."
+                Hoje, estamos expandindo para projetos de maior complexidade, investindo em tecnologia e equipamentos 
+                próprios para garantir um padrão de qualidade que nos diferencia no mercado. Somos um parceiro 
+                estratégico para a segurança e valorização do seu patrimônio.
               </p>
             </div>
           </div>

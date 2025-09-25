@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <p className="text-sm">
-            © 2025 Apex Soluções em Facilities | Todos os direitos reservados.
+            © 2025 Apex Impermeabilização | Todos os direitos reservados.
           </p>
         </div>
       </div>

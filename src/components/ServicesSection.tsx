@@ -1,21 +1,21 @@
-import { Building2, Sparkles, HardHat } from "lucide-react";
+import { Shield, Droplet, Waves } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: Building2,
-      title: "Limpeza e Conservação Predial",
-      description: "Mantemos sua empresa impecável com rotinas de limpeza personalizadas, conservação de áreas comuns, gestão de suprimentos e equipes treinadas para garantir um ambiente de trabalho valorizado e sempre pronto para receber clientes e colaboradores."
+      icon: Shield,
+      title: "Impermeabilização de Lajes e Coberturas",
+      description: "Proteção completa para lajes, telhados e áreas expostas. Aplicamos os mais modernos sistemas de mantas asfálticas e membranas líquidas para garantir estanqueidade total e evitar infiltrações."
     },
     {
-      icon: Sparkles,
-      title: "Tratamento de Pisos",
-      description: "Somos especialistas na revitalização e tratamento de pisos industriais e comerciais. Usamos equipamentos de ponta e produtos específicos para cada superfície, garantindo máxima durabilidade, resistência e um acabamento espelhado que valoriza seu espaço."
+      icon: Droplet,
+      title: "Tratamento de Infiltrações",
+      description: "Diagnóstico preciso e solução definitiva para infiltrações em garagens, subsolos, poços de elevador e paredes. Utilizamos técnicas de injeção de resinas e cristalizantes para barrar a umidade na fonte."
     },
     {
-      icon: HardHat,
-      title: "Limpeza Pós-Obra",
-      description: "Preparamos seu novo espaço para a ocupação. Removemos resíduos pesados, poeira fina e manchas de rejunte ou tinta, entregando o imóvel em perfeitas condições de uso, com agilidade e atenção aos detalhes para que sua única preocupação seja começar a operar."
+      icon: Waves,
+      title: "Vedações em Áreas Molhadas",
+      description: "Sistemas de impermeabilização flexíveis e de alta performance para áreas como piscinas, reservatórios, banheiros e cozinhas industriais, assegurando a integridade da estrutura."
     }
   ];
 
@@ -24,7 +24,7 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Soluções Completas para o seu Negócio
+            Nossos Serviços de Impermeabilização
           </h2>
         </div>
 

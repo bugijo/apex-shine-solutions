@@ -31,18 +31,17 @@ const HeroSection = () => {
           />
         </div>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary/85 via-secondary/75 to-primary/80"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-8 text-balance leading-tight">
-          Eficiência que Brilha: A Solução Definitiva em Facilities para sua Empresa
+          Eficiência que Protege: A Solução Definitiva para sua Estrutura
         </h1>
         <p className="text-xl md:text-2xl mb-12 text-balance max-w-4xl mx-auto opacity-95 leading-relaxed">
-          Serviços profissionais de limpeza e conservação que elevam o padrão do seu negócio. 
-          Atendemos indústrias, centros de distribuição e empresas em toda a região do Sul de Minas 
-          com tecnologia de ponta e equipes especializadas.
+          Serviços técnicos de impermeabilização que garantem a segurança e a longevidade do seu patrimônio. 
+          Atendemos construtoras, condomínios e indústrias na Grande São Paulo.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 

@@ -139,7 +139,7 @@ const ContactSection = () => {
                 </div>
                  <div>
                    <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
-                   <p className="text-muted-foreground">(35) 99999-9999</p>
+                   <p className="text-muted-foreground">(11) 94098-3159</p>
                  </div>
                </div>
 
@@ -147,9 +147,9 @@ const ContactSection = () => {
                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
                    <Mail className="w-6 h-6 text-white" />
                  </div>
-                 <div>
+                  <div>
                    <h4 className="font-semibold text-foreground mb-1">E-mail</h4>
-                   <p className="text-muted-foreground">contato@apexsolucoes.ind.br</p>
+                   <p className="text-muted-foreground">contato@apeximper.com.br</p>
                  </div>
                </div>
 
@@ -160,9 +160,9 @@ const ContactSection = () => {
                  <div>
                    <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                    <p className="text-muted-foreground">
-                     Av. Princesa do Sul, 1250, Sala 405<br />
-                     Jardim Andere<br />
-                     Varginha - MG, 37026-530
+                     Alameda Rio Negro, 503, Sala 2020<br />
+                     Edifício Escritórios Rio Negro<br />
+                     Alphaville, Barueri - SP, 06454-000
                    </p>
                  </div>
               </div>

@@ -1,36 +1,21 @@
-import { Shield, Clock, Award, Users, Wrench, CheckCircle } from "lucide-react";
+import { Search, Settings, Shield } from "lucide-react";
 
 const AdvantagesSection = () => {
   const advantages = [
     {
+      icon: Search,
+      title: "Diagnóstico Técnico Preciso",
+      description: "Análise detalhada das estruturas para identificar pontos críticos e definir a melhor solução de impermeabilização."
+    },
+    {
+      icon: Settings,
+      title: "Tecnologia de Ponta",
+      description: "Utilizamos os mais modernos sistemas e materiais de impermeabilização para garantir máxima eficiência."
+    },
+    {
       icon: Shield,
-      title: "Segurança Garantida",
-      description: "Todos os nossos funcionários são treinados em normas de segurança e utilizamos apenas produtos certificados e equipamentos de proteção individual."
-    },
-    {
-      icon: Clock,
-      title: "Pontualidade Absoluta",
-      description: "Respeitamos rigorosamente os horários acordados, sem interferir na rotina da sua empresa. Flexibilidade total para atender suas necessidades."
-    },
-    {
-      icon: Award,
-      title: "Qualidade Certificada",
-      description: "Processos padronizados, supervisão constante e avaliação contínua da qualidade garantem resultados consistentes e superiores."
-    },
-    {
-      icon: Users,
-      title: "Equipe Especializada",
-      description: "Nossa equipe passa por treinamentos regulares e tem experiência comprovada em limpeza industrial, predial e pós-obra."
-    },
-    {
-      icon: Wrench,
-      title: "Equipamentos Modernos",
-      description: "Investimos constantemente em tecnologia de ponta: aspiradores industriais, enceradeiras, produtos químicos específicos e ferramentas especializadas."
-    },
-    {
-      icon: CheckCircle,
-      title: "Atendimento Personalizado",
-      description: "Cada cliente tem necessidades únicas. Desenvolvemos soluções sob medida e mantemos comunicação constante para garantir sua satisfação."
+      title: "Garantia de Estanqueidade",
+      description: "Oferecemos garantia total dos serviços executados, assegurando a proteção completa da sua estrutura."
     }
   ];
 
@@ -41,13 +26,12 @@ const AdvantagesSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Por que Escolher a Apex?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Somos mais que uma empresa de limpeza. Somos seu parceiro na construção de um ambiente 
-            de trabalho impecável, seguro e profissional.
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Somos especialistas. Nosso foco é entregar a melhor solução técnica com segurança e garantia.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {advantages.map((advantage, index) => {
             const IconComponent = advantage.icon;
             return (
