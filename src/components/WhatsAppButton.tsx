@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "551194083159"; // Número no formato internacional  
+    const phoneNumber = "5511940983159"; // Número no formato internacional (11) 94098-3159
     const message = "Olá! Gostaria de saber mais sobre os serviços da Apex Impermeabilização.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
