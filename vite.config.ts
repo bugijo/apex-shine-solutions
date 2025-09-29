@@ -5,8 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Configuração para GitHub Pages - usa o nome do repositório como base
-  base: mode === "production" ? "/apex-shine-solutions/" : "/",
   server: {
     host: "::",
     port: 8080,
